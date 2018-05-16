@@ -1,0 +1,22 @@
+{
+  "name": "slick-loader",
+  "version": "1.0.0",
+  "description": "A slick loader to use during your AJAX calls or data processing",
+  "main": "slick-loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenoo/slick-loader.git"
+  },
+  "keywords": [
+    "loader"
+  ],
+  "author": "Zenoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zenoo/slick-loader/issues"
+  },
+  "homepage": "https://github.com/Zenoo/slick-loader#readme"
+}
