@@ -2,6 +2,9 @@
 
 A slick loader to use during your AJAX calls or data processing
 
+![Loader demo](https://rawgit.com/Zenoo/slick-loader/master/loader.gif "Loader demo")
+
+
 ### Doc
 
 * **Installation**
