@@ -1,6 +1,6 @@
 {
   "name": "slick-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A slick loader to use during your AJAX calls or data processing",
   "main": "slick-loader.js",
   "scripts": {
