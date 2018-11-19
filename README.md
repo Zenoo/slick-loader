@@ -11,27 +11,37 @@ A slick loader to use during your AJAX calls or data processing
 
 Simply import slick-loader into your HTML.
 ```
-<link rel="stylesheet" type="text/css" href="/path/to/slick-loader.min.css">
-<script src="your/Path/js/slick-loader.min.js"></script>	
+<link rel="stylesheet" type="text/css" href="https://gitcdn.link/repo/Zenoo/slick-loader/master/slick-loader.min.css">
+<script src="https://gitcdn.link/repo/Zenoo/slick-loader/master/slick-loader.min.js"></script>	
 ```
+* **Documentation**
+
+See the offical [documentation](https://zenoo.github.io/slick-loader/Slickloader.html) for more in-depth informations.
+
 * **How to use**
 
-All the methods are grouped inside the `LOADER` variable.
+You can either use the default `SlickLoader` or create a `new Slickloader(target)` to target your loading more precisely.
 ```
-LOADER.enable();
+SlickLoader.enable();
 ...
-LOADER.disable();
+SlickLoader.disable();
+// OR
+let customLoader = new Slickloader().enable()
+...
+customLoader.disable();
 ```
 
 * **Methods**
 ```
-LOADER.enable(); // Displays the loader
+SlickLoader.enable(); // Displays the loader
 
-LOADER.disable(); // Hides the loader
+SlickLoader.disable(); // Hides the loader
 
-LOADER.setText(line1, line2); // Sets two text lines at the center of the loader
+SlickLoader.setText(line1, line2); // Sets two text lines at the center of the loader
 
-LOADER.clearText(); // Removes the text
+SlickLoader.clearText(); // Removes the text
+
+SlickLoader.destroy(selector); // Removes the SlickLoader
 ```
 
 * **Example**

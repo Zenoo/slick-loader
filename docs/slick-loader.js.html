@@ -1,10 +1,38 @@
-/**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: slick-loader.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: slick-loader.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
  * @deprecated since v1.1.0. Disappears in v1.2.0
  * Use SlickLoader instead
  */
 const LOADER = document.createElement('div');
 LOADER.classList.add('loadingScreen');
-LOADER.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-eclipse" style="background: none;"> <path ng-attr-d="{{config.pathCmd}}" ng-attr-fill="{{config.color}}" stroke="none" d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#ffffff" transform="rotate(172.988 50 51)"> <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 51;360 50 51" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform> </path> <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_4" y="48.875258" x="50" stroke-opacity="null" stroke-width="0" fill="#ffffff"></text> <text xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_5" y="55.010217" x="50" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff"></text> </svg>';
+LOADER.innerHTML = '&lt;svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-eclipse" style="background: none;"> &lt;path ng-attr-d="{{config.pathCmd}}" ng-attr-fill="{{config.color}}" stroke="none" d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#ffffff" transform="rotate(172.988 50 51)"> &lt;animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 51;360 50 51" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite">&lt;/animateTransform> &lt;/path> &lt;text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_4" y="48.875258" x="50" stroke-opacity="null" stroke-width="0" fill="#ffffff">&lt;/text> &lt;text xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_5" y="55.010217" x="50" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">&lt;/text> &lt;/svg>';
 
 /**
  * @deprecated since v1.1.0. Disappears in v1.2.0
@@ -73,7 +101,7 @@ class Slickloader{
 		 */
 		this.element = document.createElement('div');
 		this.element.classList.add('slick-loader');
-		this.element.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-eclipse" style="background: none;"> <path ng-attr-d="{{config.pathCmd}}" ng-attr-fill="{{config.color}}" stroke="none" d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#ffffff" transform="rotate(172.988 50 51)"> <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 51;360 50 51" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform> </path> <text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_4" y="48.875258" x="50" stroke-opacity="null" stroke-width="0" fill="#ffffff"></text> <text xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_5" y="55.010217" x="50" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff"></text> </svg>';
+		this.element.innerHTML = '&lt;svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-eclipse" style="background: none;"> &lt;path ng-attr-d="{{config.pathCmd}}" ng-attr-fill="{{config.color}}" stroke="none" d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50" fill="#ffffff" transform="rotate(172.988 50 51)"> &lt;animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 51;360 50 51" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite">&lt;/animateTransform> &lt;/path> &lt;text style="cursor: move;" stroke="#000" xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_4" y="48.875258" x="50" stroke-opacity="null" stroke-width="0" fill="#ffffff">&lt;/text> &lt;text xml:space="preserve" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_5" y="55.010217" x="50" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">&lt;/text> &lt;/svg>';
 		 
 		if(parent) this.element.classList.add('slick-loader-inner');
 
@@ -149,4 +177,26 @@ class Slickloader{
 window.addEventListener('load',() => {
 	window.SlickLoader = new Slickloader(document.getElementsByTagName('body')[0]);
 	document.getElementsByTagName('body')[0].appendChild(LOADER);
-});
+});</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Slickloader.html">Slickloader</a></li></ul><h3>Global</h3><ul><li><a href="global.html#LOADER">LOADER</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Mon Nov 19 2018 16:04:45 GMT+0100 (Romance Standard Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
