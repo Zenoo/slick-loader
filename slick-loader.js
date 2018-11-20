@@ -146,7 +146,12 @@ class Slickloader{
 	}
 }
 
-window.addEventListener('load',() => {
-	window.SlickLoader = new Slickloader(document.getElementsByTagName('body')[0]);
-	document.getElementsByTagName('body')[0].appendChild(LOADER);
+let observer = new MutationObserver(function() {
+	if (document.body) {
+		// It exists now
+		window.SlickLoader = new Slickloader();
+		document.body.appendChild(LOADER);
+		observer.disconnect();
+	}
 });
+observer.observe(document.documentElement, {childList: true});
