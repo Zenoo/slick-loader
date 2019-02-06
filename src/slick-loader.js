@@ -115,7 +115,7 @@ class Slickloader{
 	}
 
 	/**
-	 * Displays the 
+	 * Displays the Slickloader
 	 */
 	enable(){
 		this._waitForBody().then(() => {
