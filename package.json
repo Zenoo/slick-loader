@@ -30,6 +30,7 @@
 		"presets": [
 			"@babel/preset-env"
 		],
-		"minified": true
+		"minified": true,
+		"comments": false
 	}
 }
