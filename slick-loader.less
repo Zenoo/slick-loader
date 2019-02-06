@@ -1,3 +1,12 @@
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .loadingScreen, .slick-loader {
     position: fixed;
     top: 0;
@@ -21,7 +30,12 @@
         left: 0;
         right: 0;
         margin: 0 auto;
-        width: 200px;
+		width: 200px;
+
+		path{
+			animation: spin 1s linear infinite;
+			transform-origin: center;
+		}
 	}
 	
 	&.slick-loader-inner{
