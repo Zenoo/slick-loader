@@ -1,4 +1,9 @@
 /**
+ * Element#matches IE hack
+ */
+if (!Element.prototype.matches) Element.prototype.matches = Element.prototype.msMatchesSelector;
+
+/**
  * @deprecated since v1.1.0. Disappears in v1.2.0
  * Use SlickLoader instead
  */
