@@ -5,7 +5,7 @@
 	"main": "slick-loader.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"preversion": "./build"
+		"preversion": "./build.sh"
 	},
 	"repository": {
 		"type": "git",
