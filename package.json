@@ -5,7 +5,7 @@
 	"main": "slick-loader.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"preversion": "babel src -o slick-loader.min.js & jsdoc . -R README.md -c docs/jsdoc-conf.json"
+		"version": "babel src -o slick-loader.min.js & jsdoc . -R README.md -c docs/jsdoc-conf.json"
 	},
 	"repository": {
 		"type": "git",
