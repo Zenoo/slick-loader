@@ -4,7 +4,8 @@
   "description": "A slick loader to use during your AJAX calls or data processing",
   "main": "slick-loader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"preversion": "babel src -d ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Zenoo/slick-loader/issues"
   },
-  "homepage": "https://github.com/Zenoo/slick-loader#readme"
+  "homepage": "https://github.com/Zenoo/slick-loader#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
 }
