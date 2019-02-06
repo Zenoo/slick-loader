@@ -5,7 +5,7 @@
 	"main": "slick-loader.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"preversion": "babel src -o slick-loader.min.js && jsdoc . -R README.md -c docs/jsdoc-conf.json && browserify slick-loader.min.js -o slick-loader.min.js && git add * || true"
+		"preversion": "babel src -o slick-loader-ie.min.js && browserify slick-loader-ie.min.js | uglifyjs > slick-loader.min.js && rm slick-loader-ie.min.js && jsdoc . -R README.md -c docs/jsdoc-conf.json && git add * || true"
 	},
 	"repository": {
 		"type": "git",
