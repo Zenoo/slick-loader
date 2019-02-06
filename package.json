@@ -20,7 +20,9 @@
 		"url": "https://github.com/Zenoo/slick-loader/issues"
 	},
 	"homepage": "https://github.com/Zenoo/slick-loader#readme",
-	"dependencies": {},
+	"dependencies": {
+		"@babel/polyfill": "^7.2.5"
+	},
 	"devDependencies": {
 		"@babel/cli": "^7.2.3",
 		"@babel/core": "^7.2.2",
@@ -28,7 +30,10 @@
 	},
 	"babel": {
 		"presets": [
-			"@babel/preset-env"
+			"@babel/preset-env",
+			{
+				"useBuiltIns": "usage"
+			}
 		],
 		"minified": true,
 		"comments": false,
