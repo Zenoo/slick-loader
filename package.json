@@ -31,6 +31,9 @@
 			"@babel/preset-env"
 		],
 		"minified": true,
-		"comments": false
+		"comments": false,
+		"ignore": [
+			"**/*.min.js"
+		]
 	}
 }
