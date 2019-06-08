@@ -11,8 +11,8 @@ A slick loader to use during your AJAX calls or data processing
 
 Simply import slick-loader into your HTML.
 ```
-<link rel="stylesheet" type="text/css" href="https://gitcdn.link/repo/Zenoo/slick-loader/master/slick-loader.min.css">
-<script src="https://gitcdn.link/repo/Zenoo/slick-loader/master/slick-loader.min.js"></script>	
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/slick-loader@1.1.20/slick-loader.min.css">
+<script src="https://unpkg.com/slick-loader@1.1.20/slick-loader.min.js"></script>	
 ```
 * **Documentation**
 
