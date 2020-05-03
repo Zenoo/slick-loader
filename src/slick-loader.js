@@ -198,3 +198,6 @@ class Slickloader{
 
 // Init default SlickLoader
 window.SlickLoader = new Slickloader();
+
+// Hack for availability
+window.Slickloader = Slickloader;
