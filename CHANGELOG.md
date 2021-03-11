@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.25](https://github.com/Zenoo/slick-loader/compare/v1.1.24...v1.1.25) (2021-03-11)
+
+
+### Bug Fixes
+
+* npm vulnerabilities ([c0dc20e](https://github.com/Zenoo/slick-loader/commit/c0dc20eb0cbc63d35e4c712e40d8850d3f77df42))
+
 ### [1.1.24](https://github.com/Zenoo/slick-loader/compare/v1.1.23...v1.1.24) (2020-05-03)
 
 
