@@ -5,6 +5,7 @@ on:
     tags:
       - 'v*.*.*'
 
+permissions: read-all|write-all
 jobs:
   build:
     runs-on: ubuntu-latest
