@@ -1,7 +1,7 @@
-name: Node.js Package
+name: Publish on npmjs.com
 on:
   release:
-    types: [created]
+    types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
