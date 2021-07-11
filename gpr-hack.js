@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const pkg = require('./package.json');
 
-pkg.name = '@zenoo/address-search';
+pkg.name = '@zenoo/slick-loader';
 
 // Update package.json with the udpated name
 fs.writeFileSync(
