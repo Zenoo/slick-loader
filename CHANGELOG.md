@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.36](https://github.com/Zenoo/slick-loader/compare/v1.1.35...v1.1.36) (2021-07-11)
+
+
+### Bug Fixes
+
+* Release workflow + babel config ([a719865](https://github.com/Zenoo/slick-loader/commit/a7198650272424d2f96583f50cedfde5034a6c91))
+
 ### [1.1.35](https://github.com/Zenoo/slick-loader/compare/v1.1.34...v1.1.35) (2021-06-16)
 
 ### [1.1.34](https://github.com/Zenoo/slick-loader/compare/v1.1.33...v1.1.34) (2021-06-16)
