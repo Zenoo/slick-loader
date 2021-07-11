@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.38](https://github.com/Zenoo/slick-loader/compare/v1.1.37...v1.1.38) (2021-07-11)
+
+
+### Bug Fixes
+
+* GPR hack package name ([9cba9aa](https://github.com/Zenoo/slick-loader/commit/9cba9aa1fe06d04b90cc18a2a5c84969656d3d49))
+
 ### [1.1.37](https://github.com/Zenoo/slick-loader/compare/v1.1.36...v1.1.37) (2021-07-11)
 
 
