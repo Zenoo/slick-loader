@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.41](https://github.com/Zenoo/slick-loader/compare/v1.1.40...v1.1.41) (2025-01-07)
+
+
+### Bug Fixes
+
+* docs generation ([e924671](https://github.com/Zenoo/slick-loader/commit/e9246710fd196ebe19e7a74ccb34ae7949c43d35))
+
 ## [1.1.40](https://github.com/Zenoo/slick-loader/compare/v1.1.39...v1.1.40) (2025-01-07)
 
 
